@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0077b6, #00b4d8, #90e0ef);
+    color: white;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 1.5rem;
+}
+
+#map {
+    height: 75vh;
+    width: 100vw;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.info-panel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 250px;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.info-panel h2 {
+    margin: 0;
+}
+
+#storm-info {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #d8f3dc;
+}
